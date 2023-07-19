@@ -1,0 +1,167 @@
+
+@media screen and (max-width:579px) {
+
+
+    .logo-container{
+        margin-bottom: 10px;
+    }
+    .nav-container {
+        flex-direction: column;
+        /* width: 100%;
+        padding: 0 0px; */
+
+    
+    }
+
+      /* .container {
+        padding: 0 50px;
+
+    
+     }   */
+
+    .nav-items-container {
+        flex-direction: column;
+        width: 300px;
+        /* margin-top: 20px; */
+        gap: 20px;
+    }
+
+    .nav-items-container a {
+        
+    }
+
+    .banner{
+        flex-direction: column;
+    }
+    
+    .banner-left-content{
+        width: 100%;
+        padding: 20px;
+
+    }
+
+    .banner-right-image  img{
+        width: 400px;
+        padding-left: 10px;
+    }
+
+
+    .online-games-title{
+        text-align: center;
+
+    }
+
+    .online-games-title .title-description{
+        text-align: center;
+        width: 300px;
+    }
+
+    .online-games-photo{
+
+        flex-direction: column;
+        
+       
+
+    }
+    .online-games-photo-row{
+        
+       
+        margin-bottom: 30px;
+
+    }
+/* plat instantly */
+    .features{
+        flex-direction: column;
+        /* align-items: flex-start; */
+        padding: 0 5%;
+        
+
+    }
+
+    .feature-content{
+        
+        text-align: center;
+        font-size: 1px;
+     }   
+
+
+
+     .banner-description{
+        width: 400px;
+        text-align: center;
+     }
+
+     .feature-image img{
+        position: relative;
+        width: 400px;
+        
+    } 
+
+    .tenyears img {
+
+        position: absolute;
+        width: 150px;
+        right:255px;
+        top: 265px;
+    
+    
+    }
+
+    /* .feature-content{
+        font-size: 1px;
+        
+        text-align: left;
+        
+        margin: 0 auto;
+    } */
+
+    /* .feature-content{
+        
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+     }   
+
+
+     .feature-image {
+        position: relative;
+         
+    } 
+    */
+
+    .games {
+        grid-template-columns: repeat(2 ,1fr);
+
+        /* width: 700px; */
+       
+        
+        /* padding-right: 100px;
+        padding-left: 100px; */
+    
+    }
+
+    .button-types-of-games{
+
+    }
+
+    .footer{
+        
+        width: 100%;
+        padding-left: 3px;
+        padding-right: 45px;
+    }
+
+    .footer-story {
+        grid-template-columns: repeat(3 ,1fr);
+    }
+    
+    .footer-Terms{
+        grid-template-columns: repeat(2,1fr);
+        justify-content: space-evenly;
+        
+    }
+    
+
+
+    
+}
