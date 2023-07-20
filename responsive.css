@@ -147,6 +147,10 @@
     
     }
 
+    .round-btn img{
+        width: 40px;
+    }
+
     .games {
         display: grid;
         grid-template-columns: repeat(3 ,1fr);
