@@ -351,11 +351,11 @@
 } */
 .games {
 
-    display: grid;
-    grid-template-columns: repeat(5 ,1fr);
-    /* flex-wrap: wrap; */
+    display: flex;
+    /* grid-template-columns: repeat(5 ,1fr); */
+    flex-wrap: wrap;
     justify-content: center;
-    /* align-content: center; */
+    align-content: center;
     gap: 27px;
     /* grid-template-columns: repeat(5 ,1fr); */
 }

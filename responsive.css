@@ -129,8 +129,27 @@
     } 
     */
 
+    .round-btn {
+        display: flex;
+        align-items: center;
+        padding: 10px 10px;
+        border-radius: 50px;
+        border: 0;
+        color: #0B0223;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+        gap: 1px;
+    
+    
+    
+    }
+
     .games {
-        grid-template-columns: repeat(2 ,1fr);
+        display: grid;
+        grid-template-columns: repeat(3 ,1fr);
 
         /* width: 700px; */
        
